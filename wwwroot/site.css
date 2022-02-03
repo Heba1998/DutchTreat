@@ -1,0 +1,82 @@
+﻿
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input, textarea {
+    font-size: 16px;
+    width: 200px
+}
+
+    input[type= submit] {
+        width: auto;
+    }
+
+label {
+    font-size: 18px;
+}
+
+#theForm {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block
+}
+
+
+    #theForm input[type=submit] {
+        background-color: darkgreen;
+        color: white;
+    }
+
+
+ul .Ptroduct-props {
+    font-size: 14px;
+}
+
+    ul.Ptroduct-props li {
+        list-style-type: none;
+    }
+
+
+
+.Ptroduct-info {
+    border: 1px solid grey;
+    padding: 20px;
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+
+#loginToggle {
+    cursor: pointer;
+}
+
+#theform1 {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+
+    #theform1 input[type=submit] {
+        background-color: darkgreen;
+        color: white;
+    }
+
+.popup-form input[type=checkbox], .popup-form input[type=submit] {
+    width: auto;
+}
+
+#loginToggle {
+    background-color: lightcoral;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    color: white
+}

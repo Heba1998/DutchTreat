@@ -1,23 +1,37 @@
 ﻿$(document).ready(function () {
+    console.log("hi heba");
+
 
     var theForm = $("#theForm");
     theForm.hide();
 
-    var button = $("#buybutton");
-    button.on("click", function () {
-        console.log('Buying Item Done!');
+
+    var buy = $("#buyButton");
+    buy.on("click", function foo() {
+        alert("you buy product ")
     });
 
-    var productInfo = $(".product-info li");
-    productInfo.on("click", function () {
+
+
+    var product = $(".Ptroduct-props li");
+    product.on("click", function () {
         console.log("you clicked on " + $(this).text());
-    });
+    })
+
+
 
 
     var $loginToggle = $("#loginToggle");
     var $popupForm = $(".popup-form");
 
     $loginToggle.on("click", function () {
-        $popupForm.toggle(1000);
+        $popupForm.slideToggle(1000);
     });
+
 });
+
+
+
+
+
+
