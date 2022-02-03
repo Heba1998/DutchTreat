@@ -3,68 +3,55 @@
     ViewBag.Title = "Home Page";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Dutch Treat: @ViewBag.Title</title>
-    <link href="~/site.css" rel="stylesheet" />
-</head>
-<body>
-    <h2> @ViewBag.Title</h2>
-    <div class="Ptroduct-info">
-        <img src="https://i.etsystatic.com/15558642/r/il/6ffd8b/1387475689/il_fullxfull.1387475689_e1k3.jpg" style="height:250px; width:250px" />
-        <h3>Mug</h3>
-        <ul class="Ptroduct-props">
-            <li>Price : 50$</li>
-            <li>Artist: van Gogh</li>
-            <li>Title: </li>
-            <li>Description: Self-portrait</li>
-        </ul>
-        <button id="buyButton">Buy</button>
-    </div>
-    <br />
-    <div id="theForm">
-        <form>
-            <label>Your name:</label>
-            <br />
-            <input />
-            <br />
-            <label>Email:</label>
-            <br />
-            <input type="email" />
-            <br />
-            <label>Subject:</label>
-            <br />
-            <input type="text" />
-            <br />
-            <label>Message:</label>
-            <br />
-            <textarea rows="4"></textarea>
-            <br />
-            <input type="submit" value="Send Message" />
-        </form>
-    </div>
-
-    <div>
-        <div id="loginToggle"> Login </div>
+<div class="Ptroduct-info">
+    <img src="https://i.etsystatic.com/15558642/r/il/6ffd8b/1387475689/il_fullxfull.1387475689_e1k3.jpg" style="height:250px; width:250px" />
+    <h3>Mug</h3>
+    <ul class="Ptroduct-props">
+        <li>Price : 50$</li>
+        <li>Artist: van Gogh</li>
+        <li>Title: </li>
+        <li>Description: Self-portrait</li>
+    </ul>
+    <button id="buyButton">Buy</button>
+</div>
+<br />
+<div id="theForm">
+    <form>
+        <label>Your name:</label>
         <br />
-        <form class="popup-form" id="theform1">
-            <label>User Name :</label>
-            <br />
-            <input />
-            <br />
-            <label>Password :</label>
-            <br />
-            <input type="password" />
-            <br />
-            <input type="checkbox" />
-            <label>Remember me !</label>
-            <br />
-            <input type="submit" value="login " />
-        </form>
-    </div>
+        <input />
+        <br />
+        <label>Email:</label>
+        <br />
+        <input type="email" />
+        <br />
+        <label>Subject:</label>
+        <br />
+        <input type="text" />
+        <br />
+        <label>Message:</label>
+        <br />
+        <textarea rows="4"></textarea>
+        <br />
+        <input type="submit" value="Send Message" />
+    </form>
+</div>
 
-    <script src="./lib/jquery/dist/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
-</body>
-</html>
+<div>
+    <div id="loginToggle"> Login </div>
+    <br />
+    <form class="popup-form" id="theform1">
+        <label>User Name :</label>
+        <br />
+        <input />
+        <br />
+        <label>Password :</label>
+        <br />
+        <input type="password" />
+        <br />
+        <input type="checkbox" />
+        <label>Remember me !</label>
+        <br />
+        <input type="submit" value="login " />
+    </form>
+</div>
